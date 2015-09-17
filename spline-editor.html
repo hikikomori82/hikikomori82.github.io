@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <title>Spline Edior!</title>
+    <!-- link rel="stylesheet" href="style.css" type="text/css" -->
+    <link rel="shortcut icon" href="icon/16.png" type="image/png" />
+    <style type="text/css">
+    body {
+        backgroundColor: black;
+        margin: 0;
+        padding: 0;
+        xxxoverflow: hidden;
+    }
+    textarea {
+        overflow-x: scroll;
+        display: block;
+        box-sizing: border-box;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    canvas {
+        display: block;
+        box-sizing: border-box;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        top: 0;
+    }
+    </style>
+  </head>
+  <body>
+    <textarea id="textarea">StartChar: A
+Encoding: 65 65 4
+Width: 1258
+VWidth: 2456
+Flags: W
+HStem: 0 21G&lt;1059.5 1122&gt; 382 141&lt;400 861&gt; 1490 20G&lt;608 659&gt;
+LayerCount: 2
+Fore
+SplineSet
+564 1455 m 10,0,1
+ 582 1510 582 1510 634 1510 c 24,2,3
+ 684 1510 684 1510 702 1455 c 18,4,-1
+ 1149 111 l 18,5,6
+ 1158 84 1158 84 1158 67 c 0,7,8
+ 1158 8 1158 8 1086 0 c 1,9,10
+ 1033 0 1033 0 1011 66 c 2,11,12
+ 909 382 l 1,13,-1
+ 355 382 l 1,14,-1
+ 246 58 l 2,15,16
+ 225 -3 225 -3 178 -3 c 0,17,18
+ 100 -3 100 -3 100 70 c 16,19,20
+ 100 80 100 80 122 145 c 10,21,-1
+ 564 1455 l 10,0,1
+630 1206 m 25,22,-1
+ 400 523 l 25,23,-1
+ 861 523 l 25,24,-1
+ 630 1206 l 25,22,-1
+EndSplineSet
+Validated: 1
+Kerns2: 102 -156 "kernsubtable"  100 -105 "kernsubtable"  99 -165 "kernsubtable"  86 -103 "kernsubtable"  97 0 "kernsubtable"  20 -219 "kernsubtable" 
+EndChar</textarea>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <script type="text/javascript" src="spline-editor.js"></script>
+  </body>
+</html>
