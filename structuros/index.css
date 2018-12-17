@@ -1,0 +1,56 @@
+@font-face {
+    font-family: WhiteRabbit;
+    src: url(font/WhiteRabbit.ttf);
+}
+
+body {
+    background-color: #002;
+    background-image: url(image/background.png);
+    color: lime;
+    margin: 0;
+    padding: 0.5ex;
+    font-family: WhiteRabbit;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    line-height: 100%;
+    overflow-x: hidden;
+}
+
+#old {
+}
+
+#out {
+    outline: 0px dotted orange;
+}
+
+#cmd {
+    outline: 0px solid blue;
+    display: inline-block;
+    color: yellow;
+    white-space: pre-wrap;
+    min-height: 0.8em; /* ff */
+}
+
+#editor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none; /* flex; */
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+#editor textarea {
+    flex: 1;
+    resize: none;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
