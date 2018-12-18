@@ -30,7 +30,7 @@ SOS.fsRoot = {
         "etc": {
             "items": {
                 "motd": {
-                    "content": "Welcome to StructurOS v0.1\nType \"man\" to show available commands\nType \"man \"COMMAND\"\" to show full documentation of COMMAND\n\n",
+                    "content": "Welcome to StructurOS v0.2b\nType \"man\" to show available commands\nType \"man \"COMMAND\"\" to show full documentation of COMMAND\n\n",
                     "created": 1544477922000,
                     "modified": 1544477922000
                 },
